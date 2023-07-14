@@ -24,10 +24,16 @@ export default function Home({ allPostsData }) {
           <title>{siteTitle}</title>
         </Head>
         <section className={utilStyles.headingMd}>
-          <p>[Your Self Introduction]</p>
           <p>
-            (This is a sample website - you’ll be building a site like this on{' '}
-            <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+            Hello, I'm <strong>Gareth</strong>. I'm a former Civil Design Engineer in the process of switching to a career in tech and web development. I'm an aspiring full-stack developer and am currently working on honing my React skills in Epicodus' full-time coding bootcamp. Feel free to check out my work on 
+            <a href='https://github.com/gareth-24'> github</a>!
+          </p>
+          <p>
+            Outside of work and the classroom, I am an avid pacific northwest sports fan as well as a video game enthusiast. In my free time, you can find me traveling, barhopping, lifting weights, attending UW football and Mariners games, or kicking back and playing games with friends.
+          </p>
+          <p>
+            This is a simple Next.js App bootstraped with Create-React-App and inspired by this {' '}
+            <a href="https://nextjs.org/learn">Next.js tutorial</a>.
           </p>
         </section>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
